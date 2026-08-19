@@ -1,0 +1,32 @@
+{
+  "businessName": "PLACEHOLDER BUSINESS",
+  "industry": "PLACEHOLDER INDUSTRY",
+  "googleReviewUrl": "https://example.com/replace-with-owner-review-url",
+  "languages": ["en", "zh"],
+  "providers": [],
+  "services": [
+    {
+      "id": "service-1",
+      "labels": {"en": "PLACEHOLDER SERVICE", "zh": "示例服务"},
+      "phrase": {"en": "the service I received", "zh": "这次体验的服务"}
+    }
+  ],
+  "experiences": [
+    {
+      "id": "positive-1",
+      "tone": "positive",
+      "labels": {"en": "PLACEHOLDER POSITIVE EXPERIENCE", "zh": "示例正面体验"},
+      "phrase": {"en": "the experience matched my expectations", "zh": "体验符合我的期待"}
+    },
+    {
+      "id": "improve-1",
+      "tone": "improve",
+      "labels": {"en": "Something could improve", "zh": "有细节可以改善"},
+      "phrase": {"en": "a few details could be improved", "zh": "有一些细节还可以改善"}
+    }
+  ],
+  "returnIntents": [
+    {"id": "return", "labels": {"en": "I would return", "zh": "我会再回来"}},
+    {"id": "unsure", "labels": {"en": "I am not sure yet", "zh": "我还不确定"}}
+  ]
+}
